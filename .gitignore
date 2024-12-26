@@ -1,0 +1,28 @@
+# Ignorar el archivo .env
+.env
+
+# Ignorar node_modules, Archivos generados
+
+node_modules/
+build/
+dist/
+
+
+# Archivos de configuración sensibles
+config/*.json
+config/*.env
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignorar configuraciones de IDE
+.vscode/
+.idea/
+
+# Ignorar sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar logs
+*.log
